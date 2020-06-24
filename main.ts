@@ -1,6 +1,6 @@
 let fade = 0
 let pixels = neopixel.create(DigitalPin.P0, 32, NeoPixelMode.RGB)
-pixels.range(0, 24).showColor(neopixel.colors(NeoPixelColors.White))
+pixels.range(0, 32).showColor(neopixel.colors(NeoPixelColors.White))
 pixels.setBrightness(50)
 let white = 255
 basic.forever(function () {
